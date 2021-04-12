@@ -1,0 +1,155 @@
+.header-img {
+    align-items: center;
+    width: 120%;
+    height: 180px;
+    background: url(Threyda3.png);
+    background-size: 1000px;
+    justify-content: center;
+  }
+
+
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(217, 224, 230);
+    text-align: center;
+
+        font-family: "Lato";
+        font-weight: 300;
+        font-size: 2.8em;
+        margin: 0 auto;
+        padding: 0 140px;
+        display: inline;
+        margin-bottom: 0;
+    
+        text-align: center;
+        color: rgba(255,255,255,0.1);
+        background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+        -webkit-background-size: 125px 100%;
+        -moz-background-size: 125px 100%;
+        background-size: 125px 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-animation-name: shimmer;
+        -moz-animation-name: shimmer;
+        animation-name: shimmer;
+        -webkit-animation-duration: 4s;
+        -moz-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #222;
+      }
+      @-moz-keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+      }
+      @-webkit-keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+      }
+      @-o-keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+      }
+      @keyframes shimmer {
+        0% {
+          background-position: top left;
+        }
+        100% {
+          background-position: top right;
+        }
+}
+h2
+{
+    text-align: center;
+    text-indent: 0ch;
+    color: rgb(223, 138, 27);
+
+}
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/217/210/original/binary-code-background-vector.jpg");
+    background-image: -webkit-linear-gradient(30px);
+    background-size: 1450px;
+    width:  1000px;
+    height: 1200px;
+    background-color: rgba(192, 134, 178, 0.5); /* Tint color */
+    background-blend-mode: multiply;
+    background-image:opacity:0.2; ;
+
+    
+    
+  }
+  p 
+  {
+      color: aliceblue;
+  }
+  nav a
+  { 
+      
+      color: aliceblue;
+      text-decoration-color: aliceblue;
+      justify-content: right;
+      position: absolute;
+      left: 0px;
+      height: 40px;
+      display: flex;
+      
+    /* This is used to make the navbar sticky, So that the
+        navbar stays at the top part even if we scroll */
+        position: sticky; 
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+      
+    /*it specifies the mouse cursor to be displayed
+        when it is pointed over the element */
+        cursor: pointer;
+    }
+      
+    .nav-list {
+        width: 50%;
+        display: flex;
+    }
+      
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+      
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+      
+    .nav-list li a:hover {
+        color: black;
+    }
+      
+    .rightNav {
+        width: 50%;
+        text-align: right;
+    }
+      
+      width: 100%;
+      margin: 0 auto;
+
+  }
