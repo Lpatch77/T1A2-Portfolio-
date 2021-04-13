@@ -87,8 +87,10 @@ h2
 body
 {
     background-image: url("https://static.vecteezy.com/system/resources/previews/001/217/210/original/binary-code-background-vector.jpg");
-    background-size: 1450px;
-    width:  1000px;
+    background-size: 1300px;
+
+
+    width:  820px;
     height: 1200px;
     background-color: rgba(192, 134, 178, 0.5); /* Tint color */
     background-blend-mode: multiply;
@@ -104,51 +106,25 @@ body
   nav a
   { 
       
-      color: aliceblue;
+      
+      color: rgb(132, 180, 223);
       text-decoration-color: aliceblue;
-      justify-content: right;
-      position: absolute;
       left: 0px;
-      height: 40px;
+      height: 100px;
       display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: large;
+      padding: 10px;
+      flex-wrap: wrap;
       
-    /* This is used to make the navbar sticky, So that the
-        navbar stays at the top part even if we scroll */
-        position: sticky; 
-        align-items: center;
-        justify-content: center;
-        top: 0px;
-      
-    /*it specifies the mouse cursor to be displayed
-        when it is pointed over the element */
-        cursor: pointer;
-    }
-      
-    .nav-list {
-        width: 50%;
-        display: flex;
-    }
-      
-    .nav-list li {
-        list-style: none;
-        padding: 26px 30px;
-    }
-      
-    .nav-list li a {
-        text-decoration: none;
-        color: white;
-    }
-      
-    .nav-list li a:hover {
-        color: black;
-    }
-      
-    .rightNav {
-        width: 50%;
-        text-align: right;
-    }
-      
-      width: 100%;
-      margin: 0 auto;
-
+    
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
   }
