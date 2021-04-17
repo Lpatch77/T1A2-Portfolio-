@@ -9,10 +9,9 @@
 .header-img {
     align-items: center;
     width: 120%;
-    height: 155px;
-    background: url(Threyda3.png);
+    height: 270px;
+    background: url(people_live_hands_80419_1280x720.jpg);
     background-size: 1000px;
-    justify-content: center;
   }
 
 
@@ -93,19 +92,18 @@ h2
     color: rgb(223, 138, 27);
 
 }
-body {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/001/217/210/original/binary-code-background-vector.jpg");
-  background-size: 1300px;
+body
+{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/217/210/original/binary-code-background-vector.jpg");
+    background-size: 1300px;
 
 
-  width:  820px;
-  height: 1200px;
-  background-color: rgba(192, 134, 178, 0.5); /* Tint color */
-  background-blend-mode: multiply;
-
-
+    width:  820px;
+    height: 1200px;
+    background-color: rgba(192, 134, 178, 0.5); /* Tint color */
+    background-blend-mode: multiply;
   
-  
+
     
     
   }
@@ -114,28 +112,28 @@ body {
       color: aliceblue;
   }
   nav a
-    { 
-        
-        
-        color: rgb(132, 180, 223);
-        text-decoration-color: aliceblue;
-        left: 0px;
-        height: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: large;
-        padding: 10px;
-        flex-wrap: wrap;
-        
+  { 
       
-    }
-    .navbar {
+      
+      color: rgb(132, 180, 223);
+      text-decoration-color: aliceblue;
+      left: 0px;
+      height: 100px;
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: center;
+      align-items: center;
       font-size: large;
-    }
-  
+      padding: 10px;
+      flex-wrap: wrap;
+      
+    
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+  }
+
