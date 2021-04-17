@@ -1,10 +1,9 @@
-@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
-@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
-@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
-
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 .header-img {
     align-items: center;
@@ -13,13 +12,11 @@
     background: url(Android\ Jones.png);
     background-size: 1000px;
   }
-
-
-h1
+  h1
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:rgb(217, 224, 230);
-    text-align: left;
+    text-align: center;
 
         font-family: "Lato";
         font-weight: 300;
@@ -29,8 +26,8 @@ h1
         display: inline;
         margin-bottom: 0;
     
-        text-align: center;
-        color: rgba(255,255,255,0.1);
+        text-align: left;
+        color: rgba(5, 3, 3, 0.1);
         background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
         background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
         background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
@@ -85,15 +82,13 @@ h1
           background-position: top right;
         }
 }
-h2
-{
-    text-align: center;
-    text-indent: 0ch;
-    color: rgb(223, 138, 27);
-
+h2{
+    color: #ccc;
 }
-body
-{
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
     background-image: url("https://static.vecteezy.com/system/resources/previews/001/217/210/original/binary-code-background-vector.jpg");
     background-size: 1300px;
 
@@ -107,36 +102,71 @@ body
     
     
   }
-  p 
-  {
-      color: aliceblue;
-  }
-  nav a
-  { 
-      
-      
-      color:white;
-      background-color: rgb(8, 10, 12);
-      text-decoration:none;
-      left: 0px;
-      height: 100px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: large;
-      padding: 5px;
-      list-style-type: none;}
-
-      .item:not(.button) a: hover,
-      hover::after 
-      {
-      color:#ccc;
-      }
-  .navbar {
+nav {
+    background: #222;
+    padding: 0 15px;
+    text-decoration: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
+
+}
+a {
+    color:white;
+    text-decoration: none;
+
+}
+.item
+{list-style: none;
+
+}
+
+.logo {
+    font-size: 20px;
+    padding: 8px 10x 8px 0;
+
+}
+
+.item {
+    padding: 10px;
+}
+
+.item .button {
+    padding: 9px 5px;
+
+}
+
+.item.not .button a:hover
+.item a:hover::after{
+    color:#ccc
+}
+
+./*mobile menu*/
+
+.item 
+{
+    display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    font-size: large;
-  }
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item li a {
+    display:block;
+    padding: 15px 5px;
+
+}
+.item li.subitem a {
+    padding:15px;
+
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+
+.item.button {
+    order: 2;
+
+}
