@@ -10,7 +10,7 @@
     align-items: center;
     width: 120%;
     height: 270px;
-    background: url(Android\ Jones.png);
+    background: url(Threyda3.png);
     background-size: 1000px;
   }
   h1
@@ -108,18 +108,12 @@ body {
     
     padding: 0 15px;
     text-decoration: none;
-   
+    display: flex;
+    flex-wrap: wrap;
     
 
 }
-.nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
-p {
+  p {
       color: #ccc;
   }
 
