@@ -1,4 +1,5 @@
 * 
+/*resets initial settings*/
 {
     box-sizing: border-box;
     padding: 0;
@@ -40,6 +41,7 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 
+  /*settings for header image*/
 
 .header-img {
     align-items: center;
@@ -48,6 +50,9 @@
     background: url(Android\ Jones.png);
     background-size: 1000px;
   }
+
+   /*settings for shimmer effect on first heading*/
+
   h1
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -118,16 +123,21 @@
           background-position: top right;
         }
 }
+
+/* colour setting for second heading*/
+
 h2{
     color: #ccc;
 }
+
+/*setting for main body and background*/
 
 body {
     font-family: sans-serif;
     font-size: 16px;
     background-image: url("https://static.vecteezy.com/system/resources/previews/001/217/210/original/binary-code-background-vector.jpg");
     background-size: 1300px;
-
+    
 
     width:  820px;
     height: 1200px;
@@ -138,19 +148,39 @@ body {
     
     
   }
+
+  /*flex settings for navbar*/
+  ul{
+    display: flex;
+    align-items: flex-start;
+
+  }
+  /* unvisited link */
+a:link {
+  color:white;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+  a:hover {
+    color: red;
+  }
   nav {
     background: rgb(8, 8, 8);
     padding: 0 15px;
     text-decoration: none;
+    
    
     
 
 }
 .menu {
     height: 90%;
-    width: 90%;
+    width: 150%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -178,37 +208,27 @@ a {
 .item {
     padding: 10px;
 }
-
-.item .button {
-    padding: 9px 5px;
-
-}
-
-.item.not .button a:hover
-.item a:hover::after{
-    color:#ccc
-}
-
 /*mobile menu*/
 
 
 .item li a {
-    display:block;
-    padding: 15px 5px;
+  display:block;
+  padding: 15px 5px;
 
 }
 .item li.subitem a {
-    padding:15px;
+  padding:15px;
 
 }
 
 .toggle {
-    order: 1;
-    font-size: 20px;
+  order: 1;
+  font-size: 20px;
 }
 
 .item.button {
-    order: 2;
+  order: 2;
+
 }
 
 }
