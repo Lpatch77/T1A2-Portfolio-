@@ -1,10 +1,10 @@
 * 
-/*resets initial settings*/
 {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 /*responsive media queries*/
 /* For mobile phones: */
 [class*="col-"] {
@@ -41,18 +41,19 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   
+    /*settings for header image*/
   
-/*settings for header image*/
 
 .header-img {
     align-items: center;
     width: 120%;
     height: 270px;
-    background: url(people_live_hands_80419_1280x720.jpg);
+    background: url(BlogImage.png);
     background-size: 1000px;
   }
 
-  /*settings for shimmer effect on first heading*/
+   /*settings for shimmer effect on first heading*/
+
   h1
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -125,9 +126,11 @@
 }
 
 /* colour setting for second heading*/
+
 h2{
     color: #ccc;
 }
+
 /*setting for main body and background*/
 
 body {
@@ -146,21 +149,12 @@ body {
     
     
   }
-   /*flex settings for navbar*/
+  /*flex settings for navbar*/
   ul{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 
-  }
-  /* unvisited link */
-a:link {
-    color:white;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: grey;
   }
   a:hover {
     color: red;
@@ -183,14 +177,67 @@ a:link {
     justify-content: space-between;
 }
 
+h3 {
+    font-size: 25px;
+    color: #ccc;
+    background-image: url(Firstblog1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: scale-down;
+    background-position: left top;
+    padding-top:68px
+    
+      
+}
 
 p {
       color: #ccc;
+      margin-top: 1em ;
+      margin-bottom: 1em ;
   }
 
+h4 {
+    font-size: 25px;
+    color: #ccc;
+    background-image: url(Firstblog3.png);
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-position: left top;
+    padding-top:68px
+      
+}
+
+h5 {
+    font-size: 25px;
+    color: #ccc;
+    background-image: url(Firstblog5.png);
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-position: left top;
+    padding-top:68px
+      
+}
+
+h6 {
+
+    font-size: 25px;
+    color: #ccc;
+    background-image: url(Firstblog6.png);
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    background-position: left top;
+    padding-top:68px
+      
+}
 a {
     color:white;
     text-decoration: none;
+
+}
+.footer {
+
+    margin-top: 30em ;
+    margin-bottom: 30em ;
 
 }
 .item
